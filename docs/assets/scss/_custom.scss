@@ -35,7 +35,7 @@
               opacity: 1;
               > .sidebar-link{ 
                 &.active:not(.has-arrow) {
-                  background: black;
+                  background: $themecolor-dark;
                   border-radius: 6px;
                   .hide-menu {
                       color: white;
@@ -46,7 +46,7 @@
               .first-level {
                 .sidebar-link{ 
                   &.active {
-                    background: black;
+                    background: $themecolor-dark;
                     border-radius: 6px;
                     .hide-menu {
                         color: white;
@@ -102,14 +102,7 @@
     border-radius: 20px;
     margin-bottom: 30px;
     .card-body {
-    padding: 30px;
-     ul{
-       li{
-         a{
-          // text-decoration: none !important;
-          }
-         }
-        }  
+    padding: 30px;  
       }
 	   }
 	}
@@ -120,24 +113,11 @@
          border-right: 1px solid #e9ecef;
          .navbar-brand{
            padding: 0 30px;
-           &>a{
-            // text-decoration: none;
-           }
           background: #fff;
-        }
-        .nav-toggler{
-          // text-decoration: none;
         }
       }
     }
   }
- tbody{
-   td{
-     a{
-      //  text-decoration: none;
-     }
-   }
- }
 }
 
 @media(min-width:160px){
